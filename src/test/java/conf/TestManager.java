@@ -12,7 +12,7 @@ public class TestManager {
 
     @BeforeSuite
     public static void setUp(){
-        System.setProperty("webdriver.chrome.driver", "/Users/anna/repos/SeleniumTrelloTests/TrelloSeleniumMaven/src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/meinlix   /repos/SeleniumTrelloTests/TrelloSeleniumMaven/src/main/resources/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
